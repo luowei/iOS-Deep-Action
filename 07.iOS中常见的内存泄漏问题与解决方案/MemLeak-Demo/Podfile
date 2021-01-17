@@ -1,0 +1,16 @@
+project 'MemLeak-Demo.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MemLeak-Demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MemLeak-Demo
+  pod 'OOMDetector'
+  # pod 'FBMemoryProfiler'
+
+  pod "PLeakSniffer"
+
+end

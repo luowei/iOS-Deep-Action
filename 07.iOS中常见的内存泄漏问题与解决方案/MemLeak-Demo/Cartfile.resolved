@@ -1,0 +1,3 @@
+github "facebook/FBAllocationTracker" "0.1"
+github "facebook/FBMemoryProfiler" "0.1.3"
+github "facebook/FBRetainCycleDetector" "0.1"
